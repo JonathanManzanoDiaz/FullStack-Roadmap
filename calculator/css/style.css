@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    outline: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    width: 325px;
+    border-radius: 20px;
+    & input {
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 2.5rem;
+    
+    }
+    & input::placeholder {
+        font-size: 1.5rem;
+    }
+
+    & div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        gap: 2px;
+    }
+
+
+    & button {
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+        border-radius: 100px;
+        width: 80px;
+        height: 70px;
+    }
+    & .first {
+        margin-top: 1rem;
+    }
+
+    & .keys {
+        background-color: rgb(157, 157, 157);
+    }
+
+    & .operator {
+        background-color: rgb(149, 208, 0)
+    }
+
+    & .ac {
+        width: 150px;
+        background-color: rgb(102, 0, 255);
+
+    }
+    & .total {
+        background-color: rgb(102, 0, 255);
+    }
+    & .del {
+        background-color: rgb(102, 0, 255);
+
+    }
+}
