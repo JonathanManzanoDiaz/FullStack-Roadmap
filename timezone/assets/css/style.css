@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+main {
+ & h1 {
+        font-size: 6rem;
+    }
+    & h2 {
+    text-align: right;
+    font-size: 1.5rem;
+    }
+  
+    & .timezonePack {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        text-align: right;
+        gap: 10px;
+        
+        & .imgBtn {
+            width: 25px;
+            background-color: none;
+        }
+        & .imgBtn:hover{
+            width: 26px;
+        }
+    }
+  
+   
+}
+
+
