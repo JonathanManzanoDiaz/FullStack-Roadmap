@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+
 # FullStack-Roadmap
 
 Here I save the projects I made while making the roadmap fullstack of roadmap.sh
@@ -14,8 +15,3 @@ Here I save the projects I made while making the roadmap fullstack of roadmap.sh
 # PROJECTS WITH TAILWIND
 
 [First Project (Web Writings)](https://jonathanmanzanodiaz.github.io/FullStack-Roadmap/web-writings/)
-||||||| empty tree
-=======
-# FullStack-Roadmap
-Here I save the projects I made while making the roadmap fullstack of roadmap.sh
->>>>>>> 8634fe4daf7545dc83ad52615b69ee18f4652716
