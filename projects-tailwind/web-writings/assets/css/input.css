@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  max-width: 1236px;
+  background-color: #232830;
+}
+h1 {
+  color: #ff7575;
+}
