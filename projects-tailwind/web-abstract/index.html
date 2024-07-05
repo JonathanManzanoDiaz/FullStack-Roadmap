@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Abstract</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="h-screen">
+    <div id="menuPC"
+        class="h-38 w-full bg-black absolute top-0 flex flex-col items-center gap-5 py-20 hidden md:hidden">
+        <span id="closeBtn" class="text-white text-5xl absolute right-10 top-5">&times;</span>
+        <button class="text-white w-56 border rounded-md p-2 text-2xl border-white">Submit a request</button>
+        <button class="text-white w-32 h-12 rounded-md text-2xl bg-blue-500">Sign in</button>
+    </div>
+    <header class="bg-black h-16 px-2 flex items-center justify-between md:h-20 md:px-14">
+        <nav class="flex items-center justify-between w-full">
+            <div class="flex items-center gap-1">
+                <a href="#"><img class="w-32" src="assets/images/logo.svg" alt=""></a>
+                <span class="text-white text-3xl">|</span>
+                <a class="text-white text-xl" href="#">Help Center</a>
+            </div>
+            <div class="flex gap-1 md:hidden">
+                <img class="w-8" src="assets/images/search.svg" alt="">
+                <img id="hambMenu" class="w-8" src="assets/images/menu.svg" alt="">
+            </div>
+            <div class="hidden md:flex items-center gap-3">
+                <button class="text-white w-56 border rounded-md p-2 text-2xl border-white">Submit a request</button>
+                <button class="text-white w-32 h-12 rounded-md text-2xl bg-blue-500">Sign in</button>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section id="section1" class="bg-sky-200 min-h-80 flex flex-col items-center pt-20 lg:h-96">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl bold">How can we help?</h1>
+            <input id="input"
+                class="max-w-2xl mt-10 w-11/12 h-16 rounded-md border-black border-2 px-4 text-2xl outline-none"
+                type="text" placeholder="Search">
+        </section>
+        <section id="section2" class="grid grid-cols-1 mt-20 mx-auto md:md:grid-cols-2 ">
+            <article class="flex mt-6 gap-4 px-4 items-start">
+                <img class="mt-3 w-20 h-16" src="assets/images/icon1.png" alt="">
+                <div class="flex flex-col gap-3">
+                    <h2 class="text-2xl font-bold">Using Abstract</h2>
+                    <p class="text-2xl mt-3">Abstract lets you manage, version, and document your designs in one place.
+                    </p>
+                    <a href="#">Learn More →</a>
+                </div>
+            </article>
+            <article class="flex mt-6 gap-4 px-4 items-start">
+                <img class="mt-3 w-20 h-16" src="assets/images/icon2.png" alt=""></img>
+                <div class="flex flex-col gap-3">
+                    <h2 class="text-2xl font-bold">
+                        Manage your account</h2>
+                    <p class="text-2xl mt-3">Configure your account settings, such as your email, profile details, and
+                        password.</p>
+                    <a class="text-blue-700 text-xl mt-3" href="">Learn More →</a>
+                </div>
+            </article>
+            <article class="flex mt-6 gap-4 px-4 items-start">
+                <img class="mt-3 w-20 h-16" src="assets/images/icon3.png" alt="">
+                <div class="flex flex-col gap-3">
+                    <h2 class="text-2xl font-bold">
+                        Manage organizations, teams, and projects</h2>
+                    <p class="text-2xl mt-3">Use Abstract organizations, teams, and projects to organize your people and
+                        your
+                        work.</p>
+                    <a class="text-blue-700 text-xl mt-3" href="">Learn More →</a>
+                </div>
+            </article>
+            <article class="flex mt-6 gap-4 px-4 items-start">
+                <img class="w-18 h-14" src="assets/images/icon4.png" alt="">
+                <div class="flex flex-col gap-3">
+                    <h2 class="text-2xl font-bold">
+                        Manage billing</h2>
+                    <p class="text-2xl mt-3">Change subscriptions and payment details.</p>
+                    <a class="text-blue-700 text-xl mt-3" href="">Learn More →</a>
+                </div>
+            </article>
+            <article class="flex mt-6 gap-4 px-4 items-start">
+                <img class="mt-3 w-20 h-16" src="assets/images/icon5.png" alt="">
+                <div class="flex flex-col gap-3">
+                    <h2 class="text-2xl font-bold">Authenticate to Abstract</h2>
+                    <p class="text-2xl mt-3">Set up and configure SSO, SCIM, and Just-in-Time provisioning.</p>
+                    <a class="text-blue-700 text-xl mt-3" href="">Learn More →</a>
+                </div>
+            </article>
+            <article class="flex mt-6 gap-4 px-4 items-start">
+                <img class="w-16 h-14" src="assets/images/icon6.png" alt="">
+                <div class="flex flex-col gap-3">
+                    <h2 class="text-2xl font-bold">
+                        Abstract support</h2>
+                    <p class="text-2xl mt-3">Get in touch with a human.</p>
+                    <a class="text-blue-700 text-xl mt-3" href="">Learn More →</a>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="bg-black mx-auto text-white mt-10 md:px-20 py-6 mt-24">
+        <section id="footer1" class="flex flex-col justify-start md:flex-row px-9">
+            <div class="flex py-8 gap-16">
+                <div class="flex flex-col">
+                    <h2 class="text-2xl font-bold my-3">Abstract</h2>
+                    <a href="#">Start Trial</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Download</a>
+                </div>
+                <div class="flex flex-col">
+                    <h2 class="text-2xl font-bold my-3">Resources</h2>
+                    <a href="#">Blog</a>
+                    <a href="#">Help Center</a>
+                    <a href="#">Release</a>
+                    <a href="#">Notes</a>
+                    <a href="#">Status</a>
+                </div>
+            </div>
+            <div class="flex gap-6 md:gap-16 md:ml-16">
+                <div class="flex flex-col md:mt-11">
+                    <h2 class="text-2xl font-bold">Community</h2>
+                    <a class="mt-3" href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Dribbble</a>
+                    <a href="#">Podcast</a>
+                </div>
+                <div class="flex flex-col">
+                    <div class="flex flex-col  md:mt-11">
+                        <h2 class="text-2xl font-bold">Company</h2>
+                        <a class="mt-3" href="#">About Us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Legal</a>
+                    </div>
+                    <div class="flex flex-col mt-5">
+                        <h2 class="text-xl font-bold my-1  text-white">Contact Us</h2>
+                        <p class="text-white">info@abstract.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col px-9 md:items-end text-left">
+            <div>
+                <img class="w-32" src="assets/images/logo2.svg" alt="">
+                <h3 class="mt-3 text-xl font-semibold">&copy; Copyright 2024</h3>
+                <h3 class="text-xl font-semibold">Abstract Studio Design, Inc</h3>
+                <h3 class="text-xl font-semibold">All rights reserverd</h3>
+            </div>
+        </section>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

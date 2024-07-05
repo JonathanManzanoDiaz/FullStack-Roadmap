@@ -13,3 +13,4 @@ Here I save the projects I made while making the roadmap fullstack of roadmap.sh
 # PROJECTS WITH TAILWIND
 
 [First Project (Web Writings)](https://jonathanmanzanodiaz.github.io/FullStack-Roadmap/projects-tailwind/web-writings)
+[Second Project (Web Abstract)](https://jonathanmanzanodiaz.github.io/FullStack-Roadmap/projects-tailwind/web-abstract)
