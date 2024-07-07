@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#section6 {
+  background-image: url("/assets/images/bg-boost-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+header {
+  margin: auto;
+  max-width: 1024px;
+}
+main {
+  & #section1 {
+    margin: auto;
+    max-width: 1024px;
+  }
+  & #section2 {
+    margin: auto;
+    max-width: 1024px;
+  }
+  & #section3 {
+    margin: auto;
+    max-width: 1024px;
+  }
+  & #section4 {
+    margin: auto;
+    max-width: 1024px;
+  }
+}
+#divcopy {
+  margin: auto;
+  max-width: 1024px !important;
+}
+@media screen and (width: 1024px) {
+  #section2 {
+    background-image: url("/assets/images/bg-shorten-desktop.svg");
+  }
+}
